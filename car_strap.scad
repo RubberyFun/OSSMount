@@ -9,7 +9,7 @@ show_mount = true;
 screw_gap_l = 20;
 screw_gap_w = 20;
 car_w = 27;
-car_l = 45;
+car_l = 35;
 car_h = 10;
 car_offset = 3;
 rail_h = 8;
@@ -17,9 +17,9 @@ rail_w = 12;
 rail_l = 200;
 screw_d = 3 + .1; //m3 
 screw_inset = 3.5;
-mount_h = 5;
+mount_h = 6;
 receiver_d = 54;
-strap_w = 14;
+strap_w = 13;
 strap_h = 2;
 
 
@@ -64,7 +64,7 @@ difference() {
     translate([0,0,strap_h/2]) cube([strap_w,100,strap_h],center=true);
     
     //receiver shape
-    translate([0,0,29]) rotate([180,-90,0])  cylinder(d=receiver_d,h=180,center=true);
+    translate([0,0,receiver_d/2 + mount_h/2]) rotate([180,-90,0])  cylinder(d=receiver_d,h=180,center=true);
 }
 }
 

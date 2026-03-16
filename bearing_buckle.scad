@@ -4,6 +4,7 @@ include <car_strap.scad>
 $fn=128;
 buckle_d = 20;
 buckle_w = 100;
+buckle_offset = 20;
 strap_h = 53;
 strap_w = 5;
 wall = 3;
@@ -25,10 +26,10 @@ points = [
 
 color("orange")
 difference() {
-     //translate([-buckle_w/2,0,0]) linear_extrude(height=buckle_h, center=true) polygon(points);
      intersection() {
+        //translate([-buckle_w/2,0,0]) linear_extrude(height=buckle_h, center=true) polygon(points);
         translate([0,buckle_d/2,0]) cuboid([buckle_w, buckle_d, buckle_h], rounding=3, center=true);
-        translate([0,-80,0]) cylinder(h=buckle_h,d=buckle_w*2,center=true);
+        translate([0,-80,0]) cylinder(h=1000,d=buckle_w*2,center=true);
      }
     translate([0,buckle_d+wall,-buckle_h/2 + wall*2 + bearing_h/2]) rotate([-90,0,0]) cube([bearing_w, bearing_h, buckle_d*2],center=true);
      

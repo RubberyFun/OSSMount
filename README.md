@@ -6,13 +6,13 @@ It's really just a couple 3d printed parts, a belt, a linear bearing, a screw, a
 
 ![side angle](images/Screenshot_20260309_232708.png)
 In this rendering:
-- the purple is a [standard MGN12H linear rail](https://www.amazon.com/MGN12H-Linear-Carriage-Printer-Machines/dp/B0BYVBMBFQ)
-- the red is [a cut piece of 1/2" velcro strap](https://www.amazon.com/dp/B0CL6HVZ13)
-- the blue is [a venus style receiver](https://github.com/RubberyFun/OSSM-Job/blob/main/STL/OSSM-Job-Receiver-M-thin%20wall.stl)
-- the bigger orange part is [a 3d printed "belt buckle"](bearing_buckle.stl)
-- the black is [a belt](https://www.amazon.com/Transfer-Occupational-Pediatric-Caregiver-Therapist/dp/B09JVHKQVZ) which has a few options for threading.
-- [the smaller orange part](car_strap.stl) pinches the strap against the linear rail car
-- [a M4x20 screw](https://www.amazon.com/mxuteuk-450PCS-Screws-Assortment-Socket/dp/B0CS67BLQJ) secures the rail to the buckle
+- The purple is a [standard MGN12H linear rail](https://www.amazon.com/MGN12H-Linear-Carriage-Printer-Machines/dp/B0BYVBMBFQ)
+- The red is [a cut piece of 1/2" velcro strap](https://www.amazon.com/dp/B0CL6HVZ13)
+- The blue is [a venus style receiver](https://github.com/RubberyFun/OSSM-Job/blob/main/STL/OSSM-Job-Receiver-M-thin%20wall.stl)
+- The bigger orange part is [a 3d printed "belt buckle"](STL/bearing_buckle.stl)
+- The black is [a belt](https://www.amazon.com/Transfer-Occupational-Pediatric-Caregiver-Therapist/dp/B09JVHKQVZ) which has a few options for threading.
+- [The smaller orange part](STL/car_strap%2020x20.stl) pinches the strap against the linear rail car
+- [A M4x20 screw](https://www.amazon.com/mxuteuk-450PCS-Screws-Assortment-Socket/dp/B0CS67BLQJ) secures the rail to the buckle
 - [4 M3x5 screws](https://www.amazon.com/mxuteuk-450PCS-Screws-Assortment-Socket/dp/B0CS67BLQJ) secure the strap to the linear rail car.
 
 ## More images:
